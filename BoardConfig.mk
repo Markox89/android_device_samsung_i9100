@@ -21,6 +21,9 @@
 
 TARGET_BOARD_INFO_FILE := device/samsung/i9100/board-info.txt
 
+# Bionic
+MALLOC_IMPL := dlmalloc
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9100/bluetooth
 
